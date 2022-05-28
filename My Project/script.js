@@ -28,9 +28,7 @@ function playRound( computerSelection, userSelection) {
 
 //Have function that compares values of inputs and returns a winner
 
-function winOrLose("Rock", "Paper", "Scissor") {
-    
-}
+
 
 //Loop for 5 Rounds
 
