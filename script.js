@@ -17,7 +17,20 @@ function capitalizeFirstLetter(userChoice) {
     return userChoice.charAt(0).toUpperCase() + userChoice.slice(1).toLowerCase();
   }
 
+//Returns answers to be used in function
+
+let computerSelection = choice
+let userSelection = userChoice
+
+function playRound( computerSelection, userSelection) {
+
+}
+
 //Have function that compares values of inputs and returns a winner
+
+function winOrLose("Rock", "Paper", "Scissor") {
+    
+}
 
 //Loop for 5 Rounds
 
