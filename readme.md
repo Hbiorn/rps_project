@@ -9,6 +9,17 @@ Built With:
 Usage:
     The user will be able to play against the computer. The computer will randomly select Rock, Paper, or Scissor and the browser will prompt the user to enter their selection of Rock, Paper, or Scissor. The user will play five rounds before the winner is determined.
 
+What I learned:
+    -How to really write a readme file
+
+What I struggled with most:
+    -
+
+What am I least confident about: 
+    -Pseudocode. Am I actually understanding how to break the problem down?
+
+
+
 Credits: 
     https://www.theodinproject.com/lessons/foundations-rock-paper-scissors
     https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
