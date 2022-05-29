@@ -7,6 +7,90 @@
     <title>Rock Paper Scissor Project</title>
 </head>
 <body>
+    <script>
+        let computerSelection = choice
+        let userSelection = userChoice
+
+        var computerScore = 0;
+        var playerScore = 0;
+        var rounds = 1;
+
+
+        var compare = function(userSelection, computerSelection){
+        const weapons = {
+        rock: {weakTo: 'paper', strongTo: 'scissors'},
+        paper: {weakTo: 'scissors', strongTo: 'rock'},
+        scissors: {weakTo: 'rock', strongTo: 'paper'}
+        }
+
+        if (weapons[userSelection].strongTo === computerSelection) {
+        // I won
+        playerScore++;
+        
+        return("You Win");
+        }
+
+        else if (weapons[userSelection].weakTo === computerSelection) {
+        // I Lost
+        computerScore++;
+        
+        return("You Lose");
+
+        }
+
+        else if (userSelection === computerSelection){
+        //Tie
+        
+        return("It's a Tie");
+        }
+        }
+
+        while(playerScore < 3 && computerScore < 3 && rounds < 6){
+
+        console.log("** ROUND" + " " + rounds + " **\n");
+
+        var userChoice  = prompt("Do you choose Rock, Paper or Scissors?").toLowerCase();
+
+
+
+        if (userChoice !== "rock" && userChoice !== "paper" && userChoice!== "scissors"){
+            console.log("You did not chose rock, paper or scissors!");
+        }
+        else {
+            console.log("You chose" + " " + userChoice);
+        var choice = Math.random();
+        if (choice <= 0.33){
+            choice="rock";
+            console.log("The computer chose" + " " + choice);
+        }
+        else if (choice >= 0.67) {
+            choice="scissors";
+            console.log("The computer chose" + " " + choice);
+        }
+        else {
+            choice="paper";
+            console.log("The computer chose" + " " + choice);
+            }
+
+            console.log("\n" + compare(userChoice, choice));
+        }
+        console.log("\nThe score is" + " " + playerScore + " "+ "Player," + " " + computerScore + " " + "Computer\n" );
+        rounds++;
+        }
+
+    
+        if (playerScore > computerScore){
+        console.log("You win!");
+        }
+        else if (playerScore < computerScore){
+        console.log("Computer wins!");
+        }
+        else {
+        console.log("It's a tie!");
+        }
+
+
+    </script>
     
 </body>
 </html>

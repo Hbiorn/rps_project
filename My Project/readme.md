@@ -11,18 +11,25 @@ Usage:
 
 What I learned:
     -How to really write a readme file
+    -How to have a random selection
+    -How to determine the value of strings
 
 What I struggled with most:
-    -
+    -getting the user input to go all lowercase while in 'while loop'
+    -getting the computer to generate random answer while in 'while loop'
 
 What am I least confident about: 
     -Pseudocode. Am I actually understanding how to break the problem down?
+    -what the heck a '/n' even does
 
 
 
 Credits: 
     https://www.theodinproject.com/lessons/foundations-rock-paper-scissors
     https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+    https://www.codecademy.com/forum_questions/51620dd19dd9984be0001e5d
+    https://stackoverflow.com/questions/53730900/more-efficient-choice-comparison-for-rock-paper-scissors
+    https://www.youtube.com/watch?v=RwFeg0cEZvQ
 
 
 License: 
